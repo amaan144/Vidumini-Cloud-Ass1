@@ -1,0 +1,9 @@
+# Ignore Terraform plugins (Heavy!)
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore Node modules (Heavy!)
+node_modules/
+.env
